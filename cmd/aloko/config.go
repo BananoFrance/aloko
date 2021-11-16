@@ -7,7 +7,7 @@ var (
 	// - https://proxy.nanos.cc/proxy
 	// - https://mynano.ninja/api/node
 	// - https://rainstorm.city/api
-	node = "https://proxy.powernode.cc/proxy"
+	node = "https://api-beta.banano.cc/"
 
-	defaultRepresentative = "nano_18shbirtzhmkf7166h39nowj9c9zrpufeg75bkbyoobqwf1iu3srfm9eo3pz"
+	defaultRepresentative = "ban_1wha1enz8k8r65k6nb89cxqh6cq534zpixmuzqwbifpnqrsycuegbmh54au6"
 )
