@@ -1,10 +1,11 @@
+If you have any question : Julien#4403 on discord
 
 aloko is a banano fork of atto who is a tiny Nano wallet, which focuses on ease of use through
 simplicity. Included is a rudimentary Go library to interact with Nano
 nodes.
 
 Disclaimer: I am no cryptographer and aloko has not been audited. I
-cannot guarantee thataloko is free of security compromising bugs.
+cannot guarantee that aloko is free of security compromising bugs.
 
 # Installation
 You can download precompiled binaries from the [releases
