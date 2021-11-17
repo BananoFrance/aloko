@@ -10,14 +10,14 @@ import (
 )
 
 var usage = `Usage:
-	atto -v
-	atto n[ew]
-	atto [-a ACCOUNT_INDEX] a[ddress]
-	atto [-a ACCOUNT_INDEX] b[alance]
-	atto [-a ACCOUNT_INDEX] r[epresentative] REPRESENTATIVE
-	atto [-a ACCOUNT_INDEX] [-y] s[end] AMOUNT RECEIVER
+	aloko -v
+	aloko n[ew]
+	aloko [-a ACCOUNT_INDEX] a[ddress]
+	aloko [-a ACCOUNT_INDEX] b[alance]
+	aloko [-a ACCOUNT_INDEX] r[epresentative] REPRESENTATIVE
+	aloko [-a ACCOUNT_INDEX] [-y] s[end] AMOUNT RECEIVER
 
-If the -v flag is provided, atto will print its version number.
+If the -v flag is provided, aloko will print its version number.
 
 The new subcommand generates a new seed, which can later be used with
 the other subcommands.
@@ -25,7 +25,7 @@ the other subcommands.
 The address, balance, representative and send subcommands expect a seed
 as the first line of their standard input. Showing the first address of
 a newly generated key could work like this:
-atto new | tee seed.txt | atto address
+aloko new | tee seed.txt | aloko address
 
 The send subcommand also expects manual confirmation of the transaction,
 unless the -y flag is given.
@@ -51,7 +51,7 @@ func init() {
 	flag.BoolVar(&vFlag, "v", false, "")
 	flag.Parse()
 	if vFlag {
-		fmt.Println("1.4.0")
+		fmt.Println("1.0.0")
 		os.Exit(0)
 	}
 	if flag.NArg() < 1 {
