@@ -1,4 +1,4 @@
-module github.com/codesoap/atto
+module github.com/bananofrance/aloko
 
 go 1.15
 
