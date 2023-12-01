@@ -1,6 +1,6 @@
-module github.com/bananofrance/aloko
+module github.com/codesoap/atto
 
-go 1.15
+go 1.21.4
 
 require (
 	filippo.io/edwards25519 v1.0.0-beta.3
